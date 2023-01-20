@@ -1,0 +1,47 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: start;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    cursor: pointer; 
+}
+
+button:hover {
+    background: gray
+}
+
+.battlecontainer {
+    display: flex;
+    align-items: center;
+    align-self: center;    
+    font-size: 4rem;
+}
+
+#emojiPlayer, #emojiComputer {
+    text-align: center;
+    display: block;
+    width: 100px;
+}
+
+#vsSpan {
+    padding: 0.5rem;
+    border-radius: 15px
+}
+
+
